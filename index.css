@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAF9;
+    margin: 10rem 3.75rem 12.375rem 3.75rem;
+    display: flex;
+    font-family: Sora, sans-serif;
+}
+
+
+body section {
+    width: 50%;
+}
+
+.heading-icon {
+    font-size: 1.25rem;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #F5C044;
+    padding: 0.425rem;
+}
+
+.heading-title {
+    font-size: 2.25rem;
+    color: #18181B;
+    margin-top: 1.125rem;
+
+
+}
+
+.body-main {
+    font-size: 1.25rem;
+    color: #52525A;
+    line-height: 1.875rem;
+    margin: 1.125rem 0;
+}
+
+ul {
+    list-style: none;
+    font-size: 0.875rem;
+    color: #52525A;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+ul li:nth-child(2),
+ul li:nth-child(3) {
+    margin-top: 0.9375rem;
+}
+
+section article {
+    width: 60%;
+    height: 45%;
+}
+
+section article:first-child {
+    float: inline-end;
+}
+
+section article:last-child {
+    margin-top: 2.5rem;
+    float: inline-start;
+}
+
+.card {
+    border-radius: 5%;
+    padding: 1.5625rem 2.5rem;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1.4375rem -0.1875rem rgba(0, 0, 0, 0.1);
+    /* height: 185px;
+    width: 360px; */
+}
+
+.card .social-network {
+    width: 30%;
+}
+
+.card header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.card p,
+h5 {
+    font-size: 1rem;
+    color: #18181B;
+}
+
+.card h5 {
+    margin: 15px 0 5px 0;
+}
+
+.card p {
+    color: #52525A;
+    line-height: 1.875rem;
+    font-weight: 37.5rem;
+}
+
+.star-background {
+    display: inline-block;
+    background-color: #F5C044;
+    border-radius: 50%;
+    padding: 0.625rem;
+}
+
+.star {
+    font-size: 1.2em;
+    background: linear-gradient(180deg, #ffffff 30%, #FBC922);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@media (width<=640px) {
+    body{
+        display: block;
+        margin: 8rem 1.75rem 10.375rem 1.75rem;
+    }
+    body section {
+        width: 100%;
+        
+    }
+    body section:nth-child(2) {
+        margin-top: 3.125rem;
+
+    }
+}
